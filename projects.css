@@ -1,0 +1,24 @@
+
+
+a {
+    font-size: 20px;
+}
+
+li {
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.jumbotron {
+    background-color: #e6f7ff;
+    color: #3c5e93;
+}
+
+h1 {
+    color: #3c5e93;
+    font-size: 80px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+/*.embed-responsive .card-img-top {
+    object-fit: cover;
+}*/

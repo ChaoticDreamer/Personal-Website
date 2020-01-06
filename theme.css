@@ -1,0 +1,93 @@
+body {
+    background-color: #bdeeff;
+}
+
+
+#content {
+    padding-top: 4%;
+}
+
+
+
+h1 {
+    color: #3c5e93;
+    font-size: 80px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+a {
+    font-size: 20px;
+}
+
+li {
+    padding-right: auto;
+    padding-left: auto;
+}
+
+#asklink {
+    color: #3c5e93;
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*Chibi picture of me*/
+.circle{
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: 3vw;
+    padding: 0;
+}
+
+.bcloud {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 4vw;
+}
+
+#rightcloud {
+    animation: bobble 2.5s infinite;
+}
+
+.ccloud {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 9vw;
+
+}
+
+#bottomcloud {
+    animation: bobble 2.3s infinite;
+}
+/*
+.acloud {
+    display: flex;
+    justify-content: flex-start;
+}*/
+
+/*Animates cloud to the left of picture*/
+
+#leftcloud {
+    animation: bobble 2s infinite;
+
+}
+
+@keyframes bobble {
+    0% {
+        transform: translate(0px, 20px, 0px);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        transform: translate3d(0px, 30px, 0px);
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+

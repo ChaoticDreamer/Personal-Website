@@ -1,0 +1,34 @@
+
+body {
+    background-color: #e6f7ff;
+}
+
+a {
+    font-size: 20px;
+}
+
+li {
+    padding-right: auto;
+    padding-left: auto;
+}
+h1 {
+    color: #3c5e93;
+    font-size: 90px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+p {
+    color: #3c5e93;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#ravenclawme {
+    border-radius: 50%;
+    
+}
+
+/*#satch {
+    border-radius: 50%;
+    
+}*/
