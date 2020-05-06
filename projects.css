@@ -19,6 +19,26 @@ h1 {
     font-size: 80px;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
+
+
+.nav-pills {
+    float:none;
+    text-align:center;
+    zoom:1;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
 /*.embed-responsive .card-img-top {
     object-fit: cover;
 }*/
