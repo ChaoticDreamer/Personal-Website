@@ -23,3 +23,7 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
     color: #3c5e93;
 }
+
+#submit-btn {
+    margin-top: 1rem;
+}
